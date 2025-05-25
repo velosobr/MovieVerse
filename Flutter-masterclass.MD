@@ -1,4 +1,4 @@
-Módulo 1 – Introdução e Setup Profissional
+Módulo 0 – Introdução e Setup Profissional
 	•	Aula 1.1 – Visão geral do curso e o que vamos construir
 	•	Aula 1.2 – Instalando FVM e organizando múltiplos projetos Flutter
 	•	Aula 1.3 – Criando o projeto com estrutura limpa desde o início
@@ -10,6 +10,18 @@ Montar uma estrutura de pastas profissional, escalável, e pensada para times gr
 	•	Aula 1.5 – Git na prática: fluxo de branches, commits e convenções
 
 ⸻
+
+Módulo 1 – Design System Profissional
+
+Antes de construir o app, vamos construir os blocos visuais reutilizáveis que darão identidade e consistência ao projeto.
+
+	•	Aula 1.1 – O que é um Design System e por que ele importa
+	•	Aula 1.2 – Estrutura inicial do package design_system
+	•	Aula 1.3 – Cores, Tipografia, Espaçamentos e Tokens de Design
+	•	Aula 1.4 – Componentes base: Botão, Campo de texto, Loading, Card
+	•	Aula 1.5 – Temas: Light/Dark com Material 3
+	•	Aula 1.6 – Padronizando ícones e assets
+
 
 Módulo 2 – Fundamentos do Dart e Flutter Moderno
 	•	Aula 2.1 – Null Safety, Mixins, Enums, Extensions, Exceptions
