@@ -104,6 +104,31 @@ Checklist da aula
 	•	Entende o impacto positivo na produtividade e qualidade
 	•	Está pronto para começar a implementação do módulo design_system
 
+Aula 1.2 – Estrutura Inicial do Package design_system
+
+Objetivo da Aula
+
+Criar e configurar um package Flutter customizado para servir como base do nosso Design System. Este módulo será reutilizável por todos os apps e features do MovieVerse.
+
+⸻
+
+1. Criando o package design_system
+
+Navegue até a pasta raiz do seu projeto monorepo (movieverse/) e execute:
+
+```bash
+fvm flutter create --template=package packages/design_system
+
+```
+
+Aula 1.3 – Cores, Tipografia, Espaçamentos e Tokens de Design
+
+⸻
+
+Objetivo da Aula
+
+Criar os tokens visuais fundamentais do MovieVerse: cores, tipografia e espaçamentos. Esses tokens serão usados em todos os componentes do nosso design system.
+
 
 Módulo 2 – Fundamentos do Dart e Flutter Moderno
 	•	Aula 2.1 – Null Safety, Mixins, Enums, Extensions, Exceptions
