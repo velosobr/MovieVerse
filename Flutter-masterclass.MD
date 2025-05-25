@@ -22,6 +22,88 @@ Antes de construir o app, vamos construir os blocos visuais reutilizáveis que d
 	•	Aula 1.5 – Temas: Light/Dark com Material 3
 	•	Aula 1.6 – Padronizando ícones e assets
 
+Aula 1.1 – O que é um Design System e por que ele importa
+
+Objetivo da Aula
+
+Compreender o papel de um Design System em apps de grande porte e como sua implementação impacta positivamente produtividade, consistência e escalabilidade. Também iniciaremos o setup do módulo design_system.
+
+⸻
+
+1. O que é um Design System?
+
+Um Design System é uma coleção coesa de padrões reutilizáveis, que inclui:
+	•	Tokens de design: cores, tipografia, espaçamentos
+	•	Componentes reutilizáveis: botões, inputs, cards, etc.
+	•	Temas globais: dark/light
+	•	Guia de boas práticas visuais
+	•	Consistência entre designers e devs
+
+É o equivalente a criar um “component kit” programável, com identidade visual e regras de uso.
+
+⸻
+
+2. Por que usar um Design System?
+
+Sem Design System
+	•	Botões com cores diferentes
+	•	Fontes e espaçamentos inconsistentes
+	•	Dificuldade em aplicar tema escuro/claro
+	•	A cada nova tela, tudo é recriado do zero
+
+Com Design System
+	•	Agilidade na criação de novas telas
+	•	Componentes testáveis e padronizados
+	•	Interface consistente e com identidade visual forte
+	•	Separação clara entre UI e regras de negócio
+
+3. Exemplo prático no Flutter
+
+Imagine ter isto:
+
+```dart
+AppButton.primary("Favoritar", onPressed: () {})
+AppTextField.outlined(label: "Buscar")
+AppSpacing.large // espaçamento padronizado
+AppColors.primary // cor central do tema
+```
+Tudo isso controlado num package isolado e testável.
+
+4. Como faremos no MovieVerse
+
+Vamos criar um package Flutter chamado design_system, que conterá:
+
+Tokens
+	•	Cores (AppColors)
+	•	Tipografia (AppTypography)
+	•	Espaçamentos (AppSpacing)
+
+Componentes
+	•	Botões (primário, secundário, texto)
+	•	TextFields padronizados
+	•	Cards reutilizáveis
+	•	Loaders
+
+Tema
+	•	Material 3 adaptado com cores e fontes customizadas
+	•	Suporte a Light/Dark Theme
+
+⸻
+
+5. Vantagens em ambientes corporativos
+	•	Times grandes desenvolvendo sem conflitos visuais
+	•	Entrega mais rápida de novas features
+	•	Manutenção e refatoração simplificadas
+	•	Possibilidade de documentar e versionar o DS
+
+⸻
+
+Checklist da aula
+	•	Entendeu o papel estratégico do Design System
+	•	Conhece os principais elementos que o compõem
+	•	Entende o impacto positivo na produtividade e qualidade
+	•	Está pronto para começar a implementação do módulo design_system
+
 
 Módulo 2 – Fundamentos do Dart e Flutter Moderno
 	•	Aula 2.1 – Null Safety, Mixins, Enums, Extensions, Exceptions
