@@ -19,4 +19,21 @@ class AppTheme {
       error: AppColors.error,
     ),
   );
+
+  static ThemeData lightTheme = ThemeData(
+    brightness: Brightness.light,
+    scaffoldBackgroundColor: Colors.white,
+    primaryColor: AppColors.primary,
+    fontFamily: AppTypography.fontFamily,
+    textTheme: TextTheme(
+      displayLarge: AppTypography.headline1,
+      bodyLarge: AppTypography.body,
+      bodySmall: AppTypography.caption,
+    ),
+    colorScheme: ColorScheme.light(
+      primary: AppColors.primary,
+      secondary: AppColors.secondary,
+      error: AppColors.error,
+    ),
+  );
 }
